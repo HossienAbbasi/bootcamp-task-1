@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "vazirmatn";
+  background-color: #ffff;
+  /* width: 144rem;
+  height: 69rem; */
+}
+/* .container {
+  width: 133.6rem;
+  height: 57.8rem;
+} */
+.header{
+  display: block;
+}
+.body{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.item__header{
+  display: grid;
+  grid-template-columns: 50px 1fr 50px;
+  column-gap: 15px;
+  gap: 15px;
+}
+.number{
+  width: 4rem;
+  height: 4rem;
+  background-color: #AFCEDD;
+  display: inline-block;
+  padding-right: 1.7rem;
+  padding-top: 1rem;
+  border-radius: 6px;
+}
+.Document{
+  color: #234894;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding-top: 8px;
+}
+.date{
+  padding-top: 11px;
+  color: #696969;
+}
+.req{
+  display: block;
+
+}
+.req_1{
+  display: block;
+}
+.user{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-size: cover;
+    align-self: self-end;
+}
+image{
+  width: 40px;
+  height: 20px;
+}
+.item__foter{
+  display: grid;
+  grid-template-columns: 30px 1fr 150px;
+}
+.name{
+padding-top: 8px;
+}
+@media screen and (min-width:640px) {
+  .body{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (min-width:1024px) {
+  .body{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
